@@ -8,5 +8,4 @@
 exec docker run -it --rm -e "DISPLAY=$DISPLAY" -v /tmp/.X11-unix:/tmp/.X11-unix \
                          -v "$(pwd)/workdir:/home/developer/workdir" \
                          -v "$(pwd)/.complx:/home/developer/.config/complx" \
-                         ausbin/cs2110 bash
-                         #ausbin/cs2110 complx
+                         ausbin/cs2110 complx

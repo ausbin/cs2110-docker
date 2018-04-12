@@ -20,7 +20,7 @@ RUN useradd --user-group --create-home --shell /bin/bash developer
 USER developer
 # Create ~/.local/share/ so GTK won't generate a bunch of stderr noise
 # when trying to write to ~/.local/share/recently-used.xbel
-RUN mkdir -p /home/developer/workdir /home/developer/.local/share
+RUN mkdir -p /home/developer/workdir /home/developer/.local/share /home/developer/.config/complx
 
 WORKDIR /home/developer/workdir
 CMD bash
