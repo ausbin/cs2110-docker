@@ -5,6 +5,4 @@
     exit 2
 }
 
-docker pull ausbin/cs2110
-
-exec docker run -it -v "$(pwd)/workdir:/home/developer/workdir" ausbin/cs2110
+exec docker run -it --rm -v "$(pwd)/workdir:/home/developer/workdir" ausbin/cs2110
