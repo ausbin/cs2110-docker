@@ -5,8 +5,8 @@ If you're in CS 2110 and on a Linux distro other than Ubuntu 16.04 or
 on macOS, you can use this repository to make sure your code compiles
 properly on our toolchain.
 
-Note that this is not officially supported, but I (Austin) will try my
-best.
+Note that this is not officially supported, but we (Austin and Cem) will
+try our best.
 
 Once [you've installed Docker][1], you can get a 16.04 shell with our
 build tools with the following commands:
