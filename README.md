@@ -1,6 +1,8 @@
 Docker Image for CS 2110
 ========================
 
+Overleaf: <https://v2.overleaf.com/read/zwczwxpnxgqp>
+
 If you're in CS 2110 and on a Linux distro other than Ubuntu 16.04 or
 on macOS, you can use this repository to make sure your code compiles
 properly on our toolchain.
