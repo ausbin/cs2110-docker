@@ -1,8 +1,8 @@
 #!/bin/bash
 
 [[ $(id -ng) != docker ]] && {
-    printf 'error: run this as:\n\n\tsudo -g docker ./run.sh\n\ninstead\n' >&2
-    exit 2
+    # If not running as the docker user, re-exec myself
+    exec sudo -g docker "$0" "$@"
 }
 
 docker pull ausbin/cs2110

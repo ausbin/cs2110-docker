@@ -12,7 +12,7 @@ build tools with the following commands:
 
     $ git clone https://github.gatech.edu/CS2110/cs2110-docker.git
     $ cd cs2110-docker
-    $ sudo -g docker ./run.sh
+    $ ./run.sh
 
 All of your work is in the `workdir/` directory in this repository,
 which will be the current directory when you log into the container.
