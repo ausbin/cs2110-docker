@@ -23,5 +23,7 @@ USER developer
 # when trying to write to ~/.local/share/recently-used.xbel
 RUN mkdir -p /home/developer/workdir /home/developer/.local/share /home/developer/.config/complx
 
+COPY .bash_aliases /home/developer/.bash_aliases
+
 WORKDIR /home/developer/workdir
 CMD bash
