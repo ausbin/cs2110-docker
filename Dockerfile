@@ -11,7 +11,8 @@ RUN apt-get update && \
     apt-get update && \
     apt-get install -y complx-tools build-essential gcc-arm-none-eabi \
                        cs2110-vbam-sdl cs2110-gba-linker-script nin10kit \
-                       pkg-config valgrind gdb check tmux vim && \
+                       pkg-config valgrind gdb check tmux vim \
+                       x11-apps iputils-ping && \
     apt-get clean
 
 # Create a user. Running X11 apps as root is A Bad Thing(TM)
